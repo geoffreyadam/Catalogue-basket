@@ -1,0 +1,59 @@
+
+body *{
+  font-family: "Arial", sans-serif;
+}
+article{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+article img{
+  width: 100%;
+  object-fit: contain;
+}
+.product-description{
+  width: calc(100% - 30px);
+  padding: 15px;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #F6F6F6;
+}
+.product-description h3{
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.product-description p{
+  flex-basis: 100%;
+  text-transform: uppercase;
+}
+.product-description form{
+  margin-top: 10px;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-description input[type="submit"]{
+  order: 1;
+  font-size: 18px;
+  padding: 40px;
+  height: 50px;
+  width: 150px;
+}
+.product-description label{
+  flex-basis: 100%;
+  order: 2;
+}
+.product-description form input[type="number"] {
+  margin-top: 10px;
+  height: 20px;
+  width: 50px;
+}
+
+.product-description form select{
+  margin-top: 10px;
+  flex-basis: 50%;
+  order: 3;
+  height: 20px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Boutique</title>
+</head>
+<body>
+  <header>
+
+  </header>
+  <section class="category-ctn">
+    <h2>Catégorie</h2>
+    <span>25 articles</span>
+    <section class="products-ctn">
+      <article>
+        <img src="images/produit.jpg">
+        <section class="product-description">
+          <h3>Produit 1</h3>
+          <span>20<sup>,00€</sup></span>
+          <p>Description produit</p>
+          <form action="index.html" method="get">
+            <input type="hidden" name="product_id" value="1">
+            <input type="hidden" name="product_name" value="Produit 1">
+            <input type="hidden" name="product_price" value="20">
+            <label value="Quantité">
+              Quantité
+              <input class="quantité" name="quantity" type="number" step="1" min="1" max="10" value="1">
+            </label>
+            <select name="color">
+              <option value="rouge">Rouge</option>
+              <option value="bleu">Bleu</option>
+              <option value="gris">Gris</option>
+            </select>
+            <input type="submit" value="Ajouter au panier">
+          </form>
+        </section>
+      </article>
+    </section>
+  </section>
+  <footer>
+
+  </footer>
+</body>
+</html>
